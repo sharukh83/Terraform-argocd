@@ -1,0 +1,14 @@
+---
+global:
+  image:
+    tag: "v2.6.6"
+
+server:
+  extraArgs:
+    - --insecure
+
+dex:
+  enabled: false
+  configs:
+    cm:
+      admin.enabled: "true"
