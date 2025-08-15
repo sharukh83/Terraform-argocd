@@ -20,4 +20,5 @@ spec:
         - name: nginx
           image: sharukh8686/static-website1
           ports:
-            - containerPort: 81
+            - containerPort: 80
+            
