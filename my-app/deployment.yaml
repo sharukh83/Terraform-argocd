@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: sharukh8686/static-website
+          image: sharukh8686/static-website1
           ports:
             - containerPort: 80
